@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "autofire": {
-      "sha": "1a08d6c7101495f56d9c2b447b69fb643f835f97",
+      "sha": "748a6a98f6562fd6e6c450b244c5dd49fa8a2604",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
