@@ -1,7 +1,7 @@
 # UniPost plugin for Grok Build
 
-Connect Grok Build to [UniPost](https://unipost.ai) to schedule social media posts to Instagram,
-Facebook Pages, TikTok, and YouTube, and to see how published posts performed.
+Connect Grok Build to [UniPost](https://unipost.ai) to schedule social media posts to LinkedIn
+profiles, X, TikTok, and YouTube, and to see how published posts performed. Instagram is coming soon.
 
 ## Installation
 
@@ -16,10 +16,11 @@ can use, and approve. Don't paste an API key into chat.
 |---|---|
 | `list_accounts` | Lists the social accounts connected to the workspace (read-only) |
 | `list_posts` | Lists scheduled, published, and failed posts (read-only) |
-| `schedule_post` | Schedules a post with text and public image or video links. Nothing is published until the user approves it. |
-| `approve_post` | Publishes a scheduled post after the user approves it in the chat. Posts that include TikTok are approved through a link instead, where the user picks TikTok's settings. |
+| `schedule_post` | Schedules a post with text and public image or video links. It publishes at the scheduled time, or waits for approval when the account owner has approval on. Posts that include TikTok always wait for approval, or can go to the creator's TikTok inbox as a draft. |
+| `approve_post` | Approves a pending post after the user agrees to it in the chat. Posts that include TikTok are approved through a link instead, where the user picks TikTok's settings. |
 | `cancel_post` | Cancels a post that hasn't been published yet |
 | `get_analytics` | Views, likes, comments, and shares for published posts (read-only) |
+| `get_x_allowance` | Remaining monthly X credits and each X account's posting limits (read-only) |
 
 ## Authentication
 
