@@ -475,6 +475,20 @@
       }
     },
     {
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
       "name": "autofire",
       "description": "AutoFire car dealership data. Read one dealership's inventory, lead workflow, test drives, follow-up priorities, and daily insights from Grok. Everything is read-only; sign in with an AutoFire account on first connect.",
       "category": "productivity",
