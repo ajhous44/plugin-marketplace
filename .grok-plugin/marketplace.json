@@ -396,6 +396,25 @@
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
+      "name": "calorie-cub",
+      "description": "Log meals, check calories and macros, save private recipes, and track weight in your Calorie Cub diary. Connect your own account with OAuth.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/calorie-cub"
+      },
+      "homepage": "https://caloriecub.com",
+      "keywords": [
+        "calorie cub",
+        "caloriecub",
+        "calorie cub diary"
+      ],
+      "domains": [
+        "caloriecub.com",
+        "mcp.caloriecub.com"
+      ]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
@@ -475,23 +494,18 @@
       }
     },
     {
-      "name": "calorie-cub",
-      "description": "Log meals, check calories and macros, save private recipes, and track weight in your Calorie Cub diary. Connect your own account with OAuth.",
-      "category": "productivity",
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/calorie-cub"
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+        "path": "plugins/expo"
       },
-      "homepage": "https://caloriecub.com",
-      "keywords": [
-        "calorie cub",
-        "caloriecub",
-        "calorie cub diary"
-      ],
-      "domains": [
-        "caloriecub.com",
-        "mcp.caloriecub.com"
-      ]
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
     }
   ]
 }
